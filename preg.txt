@@ -1,34 +1,8 @@
-Qué es lo que te anima a dar el primer paso?
-¿Hay algo que te apague inmediatamente?
-¿Luz encendida o apagada?
-¿Alguna vez has pensado en engañar a tu pareja?
-¿Beso seco, húmedo o mojado?
-¿Dejarías a tu pareja por un millón de euros?
-¿Es importante para ti el aspecto físico?
-¿Cuánto tiempo llevas sin hacerlo?
-¿Alguna vez has tenido fantasías con alguien que no deberías?
-¿Qué prefieres, una cara bonita o un cuerpo sexy?
-¿Qué es lo más importante para ti en la cama?
-¿De qué te disfrazarías como fantasía sexual?
-¿Cómo te sentirías si pillas a tu pareja dándose autoplacer?
-Cuando algo no te apetece, ¿sabes poner límites?
-¿Tendrías sexo con alguien que acabas de conocer una noche?
-¿Le harías un striptease a tu pareja?
-¿Exploras tu cuerpo para descubrir tus zonas erógenas?
-¿Te gustan las películas para adultos?
-Qué te gusta más, ¿depilad@ o al natural?
-¿Cuánta experiencia consideras que tienes?
-¿Me has mentido alguna vez?
-¿Cuál es tu mayor secreto?
-¿Alguna vez has consumido drogas?
-¿Te han esposado alguna vez?
-¿Te gustan los bailes eróticos?
-
-
-
-
 insert into preguntas values (NULL, 1, 'Comida favorita','I', 1);
 insert into preguntas values (NULL, 1, 'Bebida favorita','I', 1);
+insert into preguntas values (NULL, 1, 'Color favorito','I', 1);
+insert into preguntas values (NULL, 1, 'Deporte favorito','I', 1);
+insert into preguntas values (NULL, 1, 'Pelicula favorito','I', 1);
 insert into preguntas values (NULL, 1, 'Cómo sería para ti un día perfecto','I', 1);
 insert into preguntas values (NULL, 1, 'Qué valoras más en una persona','I', 1);
 insert into preguntas values (NULL, 1, 'Qué no perdonarías nunca','I', 1);
@@ -60,9 +34,23 @@ insert into preguntas values (NULL, 1, 'La amistad qué es para ti','I', 1);
 insert into preguntas values (NULL, 1, 'Cómo creías que sería tu vida cuando eras pequeño','I', 1);
 insert into preguntas values (NULL, 1, 'Has sufrido por amor','C', 1);
 insert into preguntas values (NULL, 1, 'Dónde te refugiarías en caso de sufrir un duro golpe','I', 1);
+
+
+
+insert into preguntas values (NULL, 1, '¿Crees que el amor puede durar para siempre?','C', 1);
+insert into preguntas values (NULL, 1, '¿Crees que es posible enamorarte a primera vista?','C', 1);
+insert into preguntas values (NULL, 1, '¿Crees que el sexo es imprescindible para tener una buena relación?','C', 1);
+insert into preguntas values (NULL, 1, '¿Crees que dos ex pueden ser amigos?','C', 1);
+insert into preguntas values (NULL, 1, '¿Crees que puedes enamorarte de tu mejor amig@?','C', 1);
+insert into preguntas values (NULL, 1, '¿Qué opinas sobre el sexo casual?','C', 1);
+insert into preguntas values (NULL, 1, '¿Crees que puedes tener sexo con algún/a amig@ y después mantener la amistad?','C', 1);
+insert into preguntas values (NULL, 1, '¿Qué opinas sobre las relaciones a distancia?','C', 1);
+insert into preguntas values (NULL, 1, '¿Crees que se puede tener una relación libre de celos?','C', 1);
+insert into preguntas values (NULL, 1, '¿Consideras que te enamoras fácilmente?','C', 1);
+insert into preguntas values (NULL, 1, 'Crees que es importante que tus amig@s se lleven bien con tu pareja?','C', 1);
+insert into preguntas values (NULL, 1, '¿Qué crees que es más importante: el amor o la amistad?','C', 1);
+insert into preguntas values (NULL, 1, '¿Crees que el destino está escrito?','C', 1);
 insert into preguntas values (NULL, 1, 'Algún vicio oculto','I', 1);
-
-
 insert into preguntas values (NULL, 1, '¿Prefieres estar arriba o abajo?','I', 1);
 insert into preguntas values (NULL, 1, '¿Qué fantasía te gustaría que cumpliera para ti?','I', 1);
 insert into preguntas values (NULL, 1, '¿Siempre estás satisfecho/a en la cama cuando lo haces conmigo?','I', 1);
@@ -76,8 +64,22 @@ insert into preguntas values (NULL, 1, '¿Hablas de nuestra vida sexual con tus 
 insert into preguntas values (NULL, 1, '¿Te atrae mi cuerpo?','C', 1);
 insert into preguntas values (NULL, 1, '¿Que si o que no te atrae?','I', 1);
 insert into preguntas values (NULL, 1, '¿Qué puntuación me darías del 1 al 10?','I', 1);
-insert into preguntas values (NULL, 1, '¿Te gustaría que hiciera más deporte para tener un cuerpo más esbelto?','C', 1);
-
+insert into preguntas values (NULL, 1, 'insert into preguntas values (NULL, 1, '¿Te gustaría que hiciera más deporte para tener un cuerpo más esbelto?','C', 1);
+insert into preguntas values (NULL, 1, '¿Hay algo que te apague inmediatamente?','C', 1);
+insert into preguntas values (NULL, 1, '¿Luz encendida o apagada?','C', 1);
+insert into preguntas values (NULL, 1, '¿Alguna vez has pensado en engañar a tu pareja?','C', 1);
+insert into preguntas values (NULL, 1, '¿Dejarías a tu pareja por un millón de euros?','C', 1);
+insert into preguntas values (NULL, 1, '¿Es importante para ti el aspecto físico?','C', 1);
+insert into preguntas values (NULL, 1, '¿Qué prefieres, una cara bonita o un cuerpo sexy?','C', 1);
+insert into preguntas values (NULL, 1, '¿Qué es lo más importante para ti en la cama?','C', 1);
+insert into preguntas values (NULL, 1, 'Cuando algo no te apetece, ¿sabes poner límites?','C', 1);
+insert into preguntas values (NULL, 1, '¿Tendrías sexo con alguien que acabas de conocer una noche?','C', 1);
+insert into preguntas values (NULL, 1, 'Qué te gusta más, ¿depilad@ o al natural?','C', 1);
+insert into preguntas values (NULL, 1, '¿Cuál es tu mayor secreto?','C', 1);
+insert into preguntas values (NULL, 1, '¿Alguna vez has consumido drogas?','C', 1);
+insert into preguntas values (NULL, 1, '¿Te han esposado alguna vez?','C', 1);
+insert into preguntas values (NULL, 1, '¿Cuántas veces puedes tener sexo en una noche?','C', 1);
+insert into preguntas values (NULL, 1, '¿Qué es algo que nunca harías en la cama?','C', 1);
 insert into preguntas values (NULL, 1, 'Qué hay que hacer para que te derritas de placer','I', 1);
 insert into preguntas values (NULL, 1, 'Te gusta probar cosas nuevas en la cama','C', 1);
 insert into preguntas values (NULL, 1, 'Qué parte del cuerpo te vuelve más loco/a','I', 1);
@@ -155,12 +157,9 @@ insert into preguntas values (NULL, 1, '¿Ves porno gay?','C', 1);
 insert into preguntas values (NULL, 1, 'Quisieras ver una película porno tu y yo','C', 1);
 insert into preguntas values (NULL, 1, 'Te has masturbado alguna vez','C', 1);
 insert into preguntas values (NULL, 1, 'Te has masturbado alguna vez pensando en mí','C', 1);
+insert into preguntas values (NULL, 1, '¿Cómo te sentirías si pillas a tu pareja dándose autoplacer?','I', 1);
 insert into preguntas values (NULL, 1, 'Te gustaría ver a tu pareja masturbándose','C', 1);
 insert into preguntas values (NULL, 1, 'Tienes la mente abierta o eres más conservador','C', 1);
-insert into preguntas values (NULL, 1, 'Tienes alguna fantasía sexual','I', 1);
-insert into preguntas values (NULL, 1, '¿Qué fantasía/s has cumplido?','I', 1);
-insert into preguntas values (NULL, 1, 'Cual es la fantasía sexual más sucia que tienes','C', 1);
-insert into preguntas values (NULL, 1, '¿Hay algo que no te atreves a hacer conmigo en la cama, pero que sueñas con intentar?','I', 1);
 insert into preguntas values (NULL, 1, 'Te gusta mirar a otras personas hacer el amor','C', 1);
 insert into preguntas values (NULL, 1, 'Has fantaseado con alguien de tu sexo','C', 1);
 insert into preguntas values (NULL, 1, 'Te has besado con alguien de tu sexo','C', 1);
@@ -172,7 +171,8 @@ insert into preguntas values (NULL, 1, 'Has tenido sexo con desconocidos','C', 1
 insert into preguntas values (NULL, 1, '¿Alguna vez has hecho un trío? Si es que no, ¿te gustaría? Si es que sí, ¿te gustaría repetir?','I', 1);
 insert into preguntas values (NULL, 1, 'Tienes fantasías con alguien que conozco','C', 1);
 insert into preguntas values (NULL, 1, 'Has participado en una orgía, Si es que no, ¿te gustaría? Si es que sí, ¿te gustaría repetir?','I', 1);
-
-
-
+insert into preguntas values (NULL, 1, '¿Hay algo que no te atreves a hacer conmigo en la cama, pero que sueñas con intentar?','I', 1);
+insert into preguntas values (NULL, 1, 'Tienes alguna fantasía sexual','I', 1);
+insert into preguntas values (NULL, 1, '¿Qué fantasía/s has cumplido?','I', 1);
+insert into preguntas values (NULL, 1, 'Cual es la fantasía sexual más sucia que tienes','I', 1);
 

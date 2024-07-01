@@ -242,6 +242,7 @@ input:checked+.slider:before {
         </div>
         <div class="d-flex justify-content-end pt-2"> <button class="btn btn-primary mx-3" id="back2"> <span class="fas fa-arrow-left pr-2"></span>Previous </button> <button class="btn btn-primary" id="next3">Submit </button> </div>
     </div>
+    
 </div>
 <div class="d-flex flex-column align-items-center">
     <div class="h3 font-weight-bold text-white">Go Dark</div> <label class="switch"> <input type="checkbox"> <span class="slider round"></span> </label>
@@ -299,16 +300,16 @@ q3.style.left = "50px";
 
 
 function uncheck() {
-var rad = document.getElementById('rd')
-rad.removeAttribute('checked')
+	var rad = document.getElementById('rd')
+	rad.removeAttribute('checked')
 }
 document.addEventListener('DOMContentLoaded', function () {
-const main = document.querySelector('body')
-const toggleSwitch = document.querySelector('.slider')
+	const main = document.querySelector('body')
+	const toggleSwitch = document.querySelector('.slider')
 
-toggleSwitch.addEventListener('click', () => {
-main.classList.toggle('dark-theme')
-})
+	toggleSwitch.addEventListener('click', () => {
+		main.classList.toggle('dark-theme')
+	})
 })
 </script>
 
