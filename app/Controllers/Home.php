@@ -10,10 +10,10 @@ class Home extends BaseController
         $data['title'] = 'Inicio';
 
         $PreguntasModel = new PreguntasModel();
-        $data['pregunta'] = $PreguntasModel->getSigPregunta(1,2);
+        $data['pregunta'] = $PreguntasModel->getSigPregunta(1,11);
 
-        echo "<pre>"; var_dump($data['pregunta']);
+        //echo "<pre>"; var_dump($data['pregunta']);
 
-        //return view('Home', $data);
+        return view('Home', $data);
     }
 }
