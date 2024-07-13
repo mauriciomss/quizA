@@ -2,9 +2,7 @@
 
 <div class="wrapper">
 
-    <div class="wrap" id="q1">
-
-        <input type="hidden" name="" value="<?=$pregunta->id;?>">
+    <div class="wrap" id="q">
 
         <div class="text-center pb-4">
             <div class="h5 font-weight-bold"><span id="number"> </span>1 of 3 </div>
@@ -13,6 +11,7 @@
         <div class="h4 font-weight-bold"><?=$pregunta->pregunta;?></div>
         <div class="pt-4">
             <form>
+                <input type="hidden" name="" value="<?=$pregunta->id;?>">
                 <?php if ($pregunta->tipo == 'C'): ?>
                     <label class="options">Si<input type="radio" name="radio"><span class="checkmark"></span></label>
                     <label class="options">No<input type="radio" name="radio"><span class="checkmark"></span></label>
