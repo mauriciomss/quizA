@@ -14,7 +14,7 @@ echo 'Subiendo archivos modificados a GitHub'
 #saber ruta repositorio
 git config --get remote.origin.url
 
-read
+read -p
 
 # indicamos a Git los archivos a subir
 git add .
