@@ -12,10 +12,10 @@
 echo 'Subiendo archivos modificados a GitHub'
 
 #saber ruta repositorio
-git config --get remote.origin.url
+ruta_repo= git config --get remote.origin.url
 
 read valorPorTeclado
-echo "Valor entrado por teclado: "$valorPorTeclado
+echo "$ruta_repo"$valorPorTeclado
 
 # indicamos a Git los archivos a subir
 git add .
